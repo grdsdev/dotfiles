@@ -1,5 +1,8 @@
 source $HOME/.aliases
 
+# Add brew to PATH
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Add cargo to PATH
 source "$HOME/.cargo/env"
 
