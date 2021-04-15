@@ -6,6 +6,7 @@ install: uninstall
 	@ln -s ${HOME}/dotfiles/.gemrc ${HOME}/.gemrc
 	@ln -s ${HOME}/dotfiles/.gitconfig ${HOME}/.gitconfig
 	@brew bundle
+	@sh xcode.sh
 
 uninstall:
 	@rm ${HOME}/.vimrc || true
