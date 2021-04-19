@@ -5,10 +5,10 @@
 Clone this repo in your `$HOME` directory.
 
 ```
-$ git clone git@github.com:grsouza/dotfiles.git
+$ git clone git@github.com:grsouza/dotfiles.git $HOME/dotfiles
+$ cd $HOME/dotfiles
+$ make install
 ```
-
-Then run `make install`, and that's it.
 
 ## Attention
 
