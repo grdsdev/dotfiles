@@ -1,6 +1,7 @@
-cask 'fork'
-cask 'visual-studio-code'
+brew "git-lfs"
+brew "httpie"
+brew "jq"
+brew "tree"
 
-brew 'swift-format'
-brew 'xcodegen'
-brew 'carthage'
+cask "fork"
+cask "visual-studio-code"

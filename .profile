@@ -1,8 +1,6 @@
 source $HOME/.aliases
 
 export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
-#export ANDROID_TOOLS="$ANDROID_SDK_ROOT/build-tools"
-#export ANDROID_NDK_HOME="$ANDROID_SDK_ROOT/ndk"
 
 # Add cargo to PATH
 source "$HOME/.cargo/env"
