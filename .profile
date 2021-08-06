@@ -2,8 +2,13 @@ source $HOME/.aliases
 
 export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
 
+export WORKSPACE="$HOME/Workspace"
+
+# Add openjdk to PATH
+# export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export PATH="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin:$PATH"
+
 # Add cargo to PATH
-source "$HOME/.cargo/env"
 
 # Flutter
 export PATH="$PATH:$HOME/flutter/bin"
@@ -15,3 +20,7 @@ export PATH="$PATH:$HOME/flutter/bin"
 export PATH="$PATH:$HOME/.rvm/bin"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+. "$HOME/.cargo/env"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
