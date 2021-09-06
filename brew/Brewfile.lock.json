@@ -2,13 +2,13 @@
   "entries": {
     "cask": {
       "fork": {
-        "version": "2.10",
+        "version": "2.11.3",
         "options": {
           "full_name": "fork"
         }
       },
       "visual-studio-code": {
-        "version": "1.58.2",
+        "version": "1.60.0",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -303,6 +303,14 @@
         "CLT": "12.5.0.0.1.1617976050",
         "Xcode": "12.5",
         "macOS": "11.5"
+      },
+      "monterey": {
+        "HOMEBREW_VERSION": "3.2.10",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "0780f1df9fdbd8914ff50ac24eb0ec0d3561c1b7",
+        "CLT": "13.0.0.0.1.1628499445",
+        "Xcode": "13.0",
+        "macOS": "12.0"
       }
     }
   }
