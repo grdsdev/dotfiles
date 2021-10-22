@@ -7,10 +7,9 @@ brew "cocoapods"
 
 cask "fork"
 cask "visual-studio-code"
-cask "firefox"
 cask "spotify"
 cask "discord"
 cask "telegram"
 
 tap "homebrew/cask-fonts"
-brew "font-jetbrains-mono"
+cask "font-jetbrains-mono"
