@@ -2,8 +2,6 @@ brew "git-lfs"
 brew "httpie"
 brew "jq"
 brew "tree"
-brew "htop"
-brew "cocoapods"
 
 cask "fork"
 cask "visual-studio-code"
