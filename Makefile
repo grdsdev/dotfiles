@@ -8,7 +8,7 @@ install:
 	@ln -s ${PWD}/git/.gitconfig ${HOME}/.gitconfig || true
 	@cd ${PWD}/brew && brew bundle
 	@sh ${PWD}/xcode/xcode.sh
-	@curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+#	@curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 uninstall:
 	@rm ${HOME}/.vimrc || true
