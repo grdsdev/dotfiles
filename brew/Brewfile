@@ -8,6 +8,7 @@ cask "visual-studio-code"
 cask "spotify"
 cask "discord"
 cask "telegram"
+cask "xcodes"
 
 tap "homebrew/cask-fonts"
 cask "font-jetbrains-mono"
