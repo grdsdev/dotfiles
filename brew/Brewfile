@@ -13,4 +13,4 @@ cask "xcodes"
 cask "slack"
 cask "notion"
 cask "proxyman"
-
+cask "docker"

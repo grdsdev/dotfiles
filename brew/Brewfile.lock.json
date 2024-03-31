@@ -60,6 +60,12 @@
         "options": {
           "full_name": "proxyman"
         }
+      },
+      "docker": {
+        "version": "4.28.0,139021",
+        "options": {
+          "full_name": "docker"
+        }
       }
     },
     "brew": {
